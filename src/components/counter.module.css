@@ -1,0 +1,48 @@
+.counter-container{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  padding: 20px;
+  margin-top: 25px;
+}
+.counter-container h1{
+font-size: 24px;
+color: lightblue;
+font-weight: 600;
+}
+.count-container{
+    display: flex;
+    padding: 10px;
+}
+.count-container p{
+    color: red;
+    
+}
+.btn_container button:nth-child(1){
+    padding:7px 12px;
+    background-color: rgb(36, 154, 36);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 8px;
+}
+.btn_container button:nth-child(2){
+    padding:7px 12px;
+    background-color: rgb(191, 48, 48);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 8px;
+}
+.btn_container button:nth-child(3){
+    padding:7px 12px;
+    background-color: yellow;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 8px;
+}
