@@ -3,3 +3,10 @@
     gap: 20px;
     justify-content: center;
 }
+.image_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100vw;;
+    height: auto;
+    background-color: red;
+}
